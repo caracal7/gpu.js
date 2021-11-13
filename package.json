@@ -28,6 +28,7 @@
     "browser-sync": "^2.26.7",
     "browserify": "^16.2.3",
     "c8": "^7.0.1",
+    "esbuild": "^0.13.13",
     "gulp": "^4.0.0",
     "gulp-concat": "^2.6.0",
     "gulp-header": "^1.7.1",
@@ -49,7 +50,8 @@
     "setup": "npm i -g gulp-cli",
     "make": "gulp make",
     "build": "gulp build",
-    "docs": "doxdox ./src --layout bootstrap --output docs.html"
+    "docs": "doxdox ./src --layout bootstrap --output docs.html",
+    "esm": "node esmodule"
   },
   "repository": {
     "type": "git",
